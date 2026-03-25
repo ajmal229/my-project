@@ -1,0 +1,47 @@
+#heroimg-1{
+    width: 48%;
+    position: relative;
+}
+#heroimg-2{
+    width: 48%;
+    position: relative;
+    right: 30px;
+    top: 28px;
+}
+#hero-last-block{
+    background-image: url(./images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(150px) brightness(1.8);
+}
+#about-bee{
+    position: relative;
+    bottom: 16rem;
+    right: 9rem;
+}
+#about-lists li{
+    list-style: none;
+    padding: 0;
+    font-size: larger;
+}
+#footer-link:hover{
+    background-color: black;
+    border-radius: 10px;
+}
+#scrollbar{
+    width: 40%;
+    height: 600px;
+}
+@media (max-width:767px) {
+    #scrollbar{
+        width: 100%;
+    }
+}
+#scrollbar::-webkit-scrollbar{
+    height: 15px;
+}
+
+#scrollbar::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: yellow;
+}
